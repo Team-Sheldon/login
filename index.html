@@ -10,6 +10,8 @@
     <div class="login-container">
         <h2>Login</h2>
         <form id="loginForm" onsubmit="return validateLogin()">
+            <title>Redirect Button</title>
+            <button onclick="window.location.href='https://team-sheldon.github.io/';">X</button>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
 
@@ -18,8 +20,7 @@
             <button type="submit">Login</button>
         </form>
         <p id="errorMessage"></p>
-        <title>Redirect Button</title>
-        <button onclick="window.location.href='https://team-sheldon.github.io/';">Go back</button>
+        
     </div>
     <script src="script.js"></script>
 </body>
